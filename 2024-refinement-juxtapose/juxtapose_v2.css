@@ -1,10 +1,15 @@
+
+div.i10seg1 {
+	height: 3456px;
+}
+
+div.tight {
+	width: 70%;
+}
+
 div.juxtapose {
 	width: 100%;
 	font-family: Helvetica, Arial, sans-serif;
-}
-
-div.i10seg1 {
-height: 3456px;
 }
 
 div.jx-slider {
