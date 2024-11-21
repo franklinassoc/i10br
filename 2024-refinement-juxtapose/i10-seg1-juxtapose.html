@@ -4,8 +4,8 @@
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
     <title>I-10 Segment 1 in Baton Rouge - Current vs Proposed</title>
     <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
-<!--	<link rel="stylesheet" href="https://franklinassoc.github.io/i10br/2024-refinement-juxtapose/juxtapose_v2.css"> -->
+<!--	<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"> -->
+	<link rel="stylesheet" href="https://franklinassoc.github.io/i10br/2024-refinement-juxtapose/juxtapose_v2.css">
   </head>
   <body>
     <p width: "75%">The tool below allows you to view the current and proposed
@@ -14,28 +14,10 @@
       mobile phone users should hold your device sideways - in landscape mode -
       and refresh your browser to enlarge the image to fill your screen.</p>
 
-	<div id="i10_proposed"></div>
-<script>
-slider = new juxtapose.JXSlider('i10_proposed',
-    [
-        {
-            src: 'https://franklinassoc.github.io/i10br/2024-refinement-juxtapose/aerial-Segment1_96dpi.jpg',
-            label: '2019 Air Photo',
-            credit: 'Google Earth'
-        },
-        {
-            src: 'https://franklinassoc.github.io/i10br/2024-refinement-juxtapose/PavementMarkings_Ramp1WB_removed_96dpi.jpg',
-            label: '2024 Pavement Marking Plan',
-            credit: "Louisiana DOTD"
-        }
-    ],
-    {
-        animate: true,
-        showLabels: true,
-        showCredits: true,
-        startingPosition: "50%",
-        makeResponsive: true
-    });
-</script>
+<div id="juxtapose-wrapper" class="juxtapose" data-startingposition="50%" data-showlabels="true" data-showcredits="true" data-animate="true">
+    <img src="https://franklinassoc.github.io/i10br/2024-refinement-juxtapose/aerial-Segment1_96dpi.jpg" data-label="2019 Air Photo" data-credit="Google Earth" />
+	<img src="https://franklinassoc.github.io/i10br/2024-refinement-juxtapose/PavementMarkings_Ramp1WB_removed_96dpi.jpg" data-label="2024 Pavement Marking Plan" data-credit="Louisiana DOTD" />
+</div>
+
   </body>
 </html>
